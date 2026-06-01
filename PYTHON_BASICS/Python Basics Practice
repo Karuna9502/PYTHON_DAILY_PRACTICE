@@ -48,3 +48,22 @@ print("The rounded value is", round(pi, 2))
 
 #------OUTPUT--------
 #The rounded value is 3.14
+
+# Q6. What will this print and why?
+a = 10
+b = a
+a = 20
+print("The value b will be", b)
+#------OUTPUT------
+#The value b will be 10
+
+# Q7. Store a multi-line address in a single variable and print it.
+Address = """Karuna kumari
+Murauwatpur, Mahnar
+vaishali, 844507 """
+print(Address)
+
+#------OUTPUT------
+''' Karuna kumari
+Murauwatpur, Mahnar
+vaishali, 844507 '''
