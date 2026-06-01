@@ -9,22 +9,15 @@
 
 | Folder | Description | Status |
 |--------|-------------|--------|
-| 📁 python_basics | Core Python — variables, loops, conditionals | 🔄 Active |
-| 📁 numpy_practice | NumPy arrays, math, statistics | 🔄 Active |
-| 📁 pandas_practice | DataFrames, cleaning, analysis | ⏳ Coming |
-| 📁 dsa_questions | LeetCode + HackerRank solutions | 🔄 Active |
-| 📁 daily_log | Day-by-day practice log | 🔄 Active |
+| 📁 python_basics | Core Python — variables, loops, conditionals | 
+| 📁 numpy_practice | NumPy arrays, math, statistics |
+| 📁 pandas_practice | DataFrames, cleaning, analysis |
+| 📁 daily_log | Day-by-day practice log 
 
 ---
 
 
 
-## 🔥 Daily Streak
-- 📅 Started: April 27, 2026
-- 🟩 Current Streak: Building...
-- 🎯 Goal: 365 days of commits
-
----
 
 ## 🛠️ Tools & Libraries
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
