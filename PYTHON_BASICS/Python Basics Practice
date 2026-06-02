@@ -137,3 +137,31 @@ x = int(input("Enter a number : - "))
 y = int(input("Enter a number : - "))
 print("The Division(/) of two number is : ->", x/y)
 print("The Floor division(//) of two number is : ->", x//y)
+
+#  -------OUTPUT--------------
+'''Enter a number : - 18
+Enter a number : - 9
+The Division(/) of two number is : -> 2.0
+The Floor division(//) of two number is : -> 2
+
+Python has two division operators:
+
+/ - Division (returns a float)
+// - Floor division (returns an integer)'''
+
+# Q3. Find the remainder when 47 is divided by 5.
+a = 47
+b = 5
+print("The remainder is :-> ", a%b)
+#--------OUTPUT---------
+# The remainder is :->  2
+
+# Q4. Calculate the area of a circle using r = 7 and pi = 3.14159.
+radius = 7
+pi = 3.14159
+area_of_circle = (pi*radius*radius)
+print("The area of cirlce is :->",area_of_circle)
+
+#--------OUTPUT-------
+# The area of cirlce is :-> 153.93791
+
