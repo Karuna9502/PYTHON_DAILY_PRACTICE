@@ -110,3 +110,30 @@ print("The value of a, b, and c will be", a,b,c)
 '''The value of a, b, and c will be 1 2 3
 The value of a, b, and c will be 3 2 1
 '''
+
+# ============================================
+# CHAPTER 2 - OPERATORS-ARITHEMATIC
+# PYTHON_BASICS | PYTHON_DAILY_PRACTICE
+# ============================================
+
+# Q1. Take two numbers as input and print their sum, difference, product, and quotient.
+a = int(input("Enter a number : - "))
+b = int(input("Enter a number : - "))
+print("The addition of two number is : -", a+b)
+print("The difference of two number is : -", a-b)
+print("The product of two number is : -", a*b)
+print("The quotient of two number is : -", a/b)
+
+# -------OUTPUT--------------
+'''Enter a number : - 16
+Enter a number : - 8
+The addition of two number is : - 24
+The difference of two number is : - 8
+The product of two number is : - 128
+The quotient of two number is : - 2.0'''
+
+# Q2. What is the difference between / and // in Python? Show with an example.
+x = int(input("Enter a number : - "))
+y = int(input("Enter a number : - "))
+print("The Division(/) of two number is : ->", x/y)
+print("The Floor division(//) of two number is : ->", x//y)
