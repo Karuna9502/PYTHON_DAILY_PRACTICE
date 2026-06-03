@@ -165,3 +165,27 @@ print("The area of cirlce is :->",area_of_circle)
 #--------OUTPUT-------
 # The area of cirlce is :-> 153.93791
 
+# Q5. Write a program to convert seconds (e.g. 5000) into hours, minutes, and seconds using // and %.
+seconds = 5000
+hours =     (seconds // 3600)
+minutes = (seconds % 3600) // 60
+remaining_seconds = seconds % 60
+print(f"5000 in hours will be : {hours}, 5000 in minutes will be : {minutes}, and the remaining second would be : {remaining_seconds}")
+
+# -------OUTPUT------
+'''5000 in hours will be : 1, 5000 in minutes will be : 23, and
+ the remaining second would be : 20'''
+
+# Q6. Write a program to find the simple interest. Formula: SI = (P * R * T) / 100 
+P = int(input("Enter the priniciple :- "))
+R = int(input("Enter the rate :- "))
+T = int(input("Enter the time :- "))
+SI = (P * R * T) / 100
+print("Your Simple Intrest is : - ", SI)
+
+# ------OUTPUT------
+'''Enter the priniciple :- 5000
+Enter the rate :- 3
+Enter the time :- 5
+Your Simple Intrest is : -  750.0'''
+
