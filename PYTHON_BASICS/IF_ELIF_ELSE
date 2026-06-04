@@ -1,0 +1,14 @@
+# Q1.WAP to display the last digit of a number. (Don’t use indexing for this) 
+number = int(input("Enter a number : "))
+if number <= 10:
+    print(number)
+else:
+    last_digit = number % 10
+    print(f"The last digit of entered number {number} will be",last_digit)
+
+# Q2 WAP to check if a single character is a vowel or not.
+character = input("Enter a single character : - ")
+if character.lower() in "aeiou" or character.upper() in "AEIOU":
+    print(f"The Charater '{character}' is Vowel.")
+else:
+    print(f"The character '{character}' is not vowel.")
