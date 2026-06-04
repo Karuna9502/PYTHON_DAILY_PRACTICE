@@ -189,3 +189,35 @@ Enter the rate :- 3
 Enter the time :- 5
 Your Simple Intrest is : -  750.0'''
 
+# Q7. Take a 3-digit number and extract its individual digits using // and %.
+digit = int(input("Enter a three digit number : - "))
+last_digit = digit % 10
+digit = digit // 10
+print(last_digit) 
+second_last = digit % 10
+digit = digit // 10
+print(second_last)
+third_digit = digit % 10
+digit = digit // 10
+print(third_digit)
+#-----OUTPUT-----
+'''Enter a three digit number : - 248
+8
+4
+2'''
+ 
+#------OR-------
+
+i = int(input("Enter any digits : - "))
+list1 = []
+while (i > 0):
+    x = i % 10
+    list1.append(x)
+    i = i // 10
+    
+print(list1)
+
+#-----OUTPUT-----
+'''Enter any digits : - 248
+[8, 4, 2]'''
+
