@@ -1,4 +1,5 @@
 # Q1.WAP to display the last digit of a number. (Don’t use indexing for this) 
+
 number = int(input("Enter a number : "))
 if number <= 10:
     print(number)
@@ -7,8 +8,19 @@ else:
     print(f"The last digit of entered number {number} will be",last_digit)
 
 # Q2 WAP to check if a single character is a vowel or not.
+
 character = input("Enter a single character : - ")
 if character.lower() in "aeiou" or character.upper() in "AEIOU":
     print(f"The Charater '{character}' is Vowel.")
 else:
     print(f"The character '{character}' is not vowel.")
+
+# Q3 . WAP to check if a number is even or odd where the number is taken as input.
+
+a = int(input("enter a number : - "))
+if a % 2 != 0:
+    print("The input number is odd")
+else:
+    print("The given number is even")
+
+
