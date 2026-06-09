@@ -23,4 +23,12 @@ if a % 2 != 0:
 else:
     print("The given number is even")
 
+# Q4. WAP to check if the 3rd last character of a string is a vowel or not.
+
+string = input("Enter string to check : - ")
+if string[-3].lower() in "aeiou" or string[-3].upper() in "AEIOU":
+    print("The 3rd of a given string is vowel")
+else:
+    print("The 3rd of a given string is not vowel")
+
 
