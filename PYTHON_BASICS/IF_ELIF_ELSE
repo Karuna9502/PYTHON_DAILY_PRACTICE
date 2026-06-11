@@ -39,4 +39,28 @@ if list[0] == list[-1]:
 else:
     print(" THe first and last number of a list is not same.")
 
+# Q6  Calculate income tax for the input income by adhering to the Indian rules.
+
+income = int(input("Enter your income :- "))
+if income <= 400000:
+    print("No income tax")
+elif income <= 800000:
+    tax = (5 * income)/100
+    print("your income tax is ", tax)
+elif income <= 1200000:
+     tax = (10 * income)/100
+     print("your income tax is ", tax)
+elif income <= 1600000:
+    tax = (15 * income)/100
+    print("your income tax is ", tax)
+elif income <= 2000000:
+    tax = (20 * income)/100
+    print("your income tax is ", tax)
+elif income <= 2400000:
+    tax = (25 * income)/100
+    print("your income tax is ", tax)
+else:
+    tax = (30 * income)/100
+    print("your income tax is ", tax)
+
 
