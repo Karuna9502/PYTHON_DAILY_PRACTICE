@@ -63,4 +63,12 @@ else:
     tax = (30 * income)/100
     print("your income tax is ", tax)
 
+# Q7. Write a Python program to check whether a string starts with vowel or not.
+
+string = input("Enter a string :- ")
+if string[0].lower() in "aeiou" or string[0].upper() in "AEIOU":
+    print("The string starts with vowel.")
+else:
+    print("The string does not start with vowel.")
+
 
