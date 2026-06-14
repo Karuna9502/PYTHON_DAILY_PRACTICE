@@ -1,7 +1,7 @@
 # 🐍 PYTHON_DAILY_PRACTICE
 
 > Daily Python practice — pushing code every single day
-> to build skills in NumPy, Pandas, DSA, and core Python.
+> to build skills in NumPy, Pandas, core Python.
 
 ---
 
@@ -32,4 +32,3 @@
 - [ ] Master NumPy (all 7 topics)
 - [ ] Master Pandas (all 8 topics)
 - [ ] Build 1 data analysis project
-- [ ] Get first data analyst job 🚀
