@@ -102,4 +102,14 @@ elif percentage <= 40 and percentage > 30:
 else:
     print("STUDY HARD, FAIL!!")
 
+# Q9. Write a program to check if a number is positive, negative, or zero.
+
+number = int(input("Enter a number : - "))
+if number > 0:
+    print(f"The entred number {number} is positive.")
+elif number < 0:
+    print(f"The entred number {number} is negative.")
+else:
+    print(f"The entred number{number} is zero.")
+
 
