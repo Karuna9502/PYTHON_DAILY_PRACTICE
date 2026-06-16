@@ -102,7 +102,7 @@ elif percentage <= 40 and percentage > 30:
 else:
     print("STUDY HARD, FAIL!!")
 
-# Q9. Write a program to check if a number is positive, negative, or zero.
+# Q10. Write a program to check if a number is positive, negative, or zero.
 
 number = int(input("Enter a number : - "))
 if number > 0:
@@ -111,5 +111,28 @@ elif number < 0:
     print(f"The entred number {number} is negative.")
 else:
     print(f"The entred number{number} is zero.")
+
+# Q17. Take a temperature input and print:
+
+temperature = int(input("Entre the tempearture : - "))
+
+temperature = int(input("Enter the temperature: "))
+
+if temperature > 50:
+    print("Extremely Hot")
+
+elif 31 <= temperature <= 50:
+    print("Hot")
+
+elif 21 <= temperature <= 30:
+    print("Warm")
+
+elif 0 <= temperature <= 20:
+    print("Cold")
+
+else:
+    print("Invalid Temperature")
+
+
 
 
