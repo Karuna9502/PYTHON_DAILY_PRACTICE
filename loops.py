@@ -31,3 +31,27 @@ for value in student.values():
 
 for key, value in student.items():
     print(key,value)
+
+
+#Print numbers from 1 to 5 using range().
+for j in range(1,6):
+    print(j)
+
+#Print squares of numbers from 1 to 5 using a loop.  
+for s in range(1,6):
+    print(f"square of {s} = ", s*s)
+
+#Print only even numbers from 1 to 10.
+for even in range(1,11):
+    if even % 2 == 0:
+        print(even)
+
+
+#Print the sum of numbers in the list [1,2,3,4,5]. 
+list2 = [1,2,3,4,5]
+total = 0
+for k in list2:
+    total = total + k
+print("the sume of list is", total)
+
+   
