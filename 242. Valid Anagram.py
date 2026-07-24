@@ -1,20 +1,27 @@
-bool isAnagram(char* s, char* t) {
-    if (strlen(s) != strlen(t)) {
-        return false;
-    }
-    
-    int freq[26] = {0};
-    
-    for (int i = 0; s[i] != '\0'; i++) {
-        freq[s[i] - 'a']++;
-        freq[t[i] - 'a']--;
-    }
-    
-    for (int i = 0; i < 26; i++) {
-        if (freq[i] != 0) {
-            return false;
-        }
-    }
-      
-    return true;
-}
+def isAnagram(s, t):
+
+    if len(s) != len(t):
+        return False
+
+    freq = [0] * 26
+
+    for i in range(len(s)):
+        freq[ord(s[i]) - ord('a')] += 1
+        freq[ord(t[i]) - ord('a')] -= 1
+
+    for count in freq:
+        if count != 0:
+            return False
+
+    return True
+
+
+# ---------------- Main Program ----------------
+
+s = input("Enter first string: ")
+t = input("Enter second string: ")
+
+if isAnagram(s, t):
+    print("Anagram")
+else:
+    print("Not Anagram")
