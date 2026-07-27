@@ -65,3 +65,18 @@ for i in range(1, 6):
     for j in range(2*i-1):
         print("*",end='')
     print()
+
+'''*********
+    *******
+     *****
+      ***
+       * '''
+
+# Fixed version to print an inverted pyramid
+for i in range(5, 0, -1):              # Loops down from 5 to 1
+    for j in range(5 - i):             # Increases leading spaces each row
+        print(' ', end='')
+    for j in range(2 * i - 1):         # Decreases odd-numbered stars each row
+        print("*", end='')
+    print()                            # Moves to the next line
+
