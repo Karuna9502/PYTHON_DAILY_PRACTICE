@@ -139,3 +139,26 @@ for i in range(5):
         print(start,end='')
         start = 1 - start
     print()
+
+'''1      1   
+   12    21
+   123  321  
+   12344321'''
+
+
+for i in range(1, 5):
+    # Print left increasing numbers
+    for j in range(1, i + 1):
+        print(j, end='')
+        
+    # Print spaces in between rows
+    for j in range(2 * (4 - i)):
+        print(' ', end='')
+        
+    # Print right decreasing numbers
+    for j in range(i, 0, -1):
+        print(j, end='')
+        
+    print()
+
+
