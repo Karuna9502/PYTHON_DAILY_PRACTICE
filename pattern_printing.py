@@ -185,3 +185,16 @@ for i in range(5):
         print(chr(65 + j), end='')
     print()
 
+'''ABCDE
+   ABCD
+   ABCD
+   ABC
+   AB
+   A'''
+
+
+for i in range(5,0,-1):
+    for j in range(i):
+        print(chr(65 + j), end='')
+    print()
+
