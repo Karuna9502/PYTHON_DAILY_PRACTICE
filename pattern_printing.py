@@ -247,3 +247,38 @@ for i in range(n):
     for j in range(i + 1):
         print(chr(69 - i + j), end="")
     print()
+
+'''         **********
+            **** ****
+            ***   ***
+            **     **
+            *       *
+            *       *
+            **     **
+            ***   ***
+            **** ****
+            *********'''
+
+
+
+n = 5
+
+# Upper Half
+spaces = 0
+
+for i in range(n, 0, -1):
+
+    for j in range(i):
+        print("*", end="")
+
+    for j in range(spaces):
+        print(" ", end="")
+
+    for j in range(i):
+        print("*", end="")
+
+    print()
+
+    spaces += 2
+
+
