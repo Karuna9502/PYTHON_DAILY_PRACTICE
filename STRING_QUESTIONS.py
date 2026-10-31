@@ -32,3 +32,27 @@ for ch in user_input1:
         lower += 1
 print(upper)
 print(lower)
+
+
+# ASK A STRING FROM USER CONVERT ALL THE ALPHABESTS TO UPERCASE 
+user_input2 = input("enter a string = ")
+print(user_input2.upper())
+user_input3 = "abc23hhsd"
+result = "" #strinh is immutable that's why we can make change in orignal string so we have to take one variable and trafer on that with changement
+print(result)
+print(id(result))
+result = result +"abc"
+print(result)
+print(id(result))
+# without methods 
+user_input2 = input("enter a string = ")
+result = ""
+for ch in user_input2:
+    asc = ord(ch)
+    if asc >= 97 and asc <= 122:
+        newasc = asc - 32
+        char = chr(newasc)
+        result = result + char
+    else:
+        result = result + ch
+print(result)
