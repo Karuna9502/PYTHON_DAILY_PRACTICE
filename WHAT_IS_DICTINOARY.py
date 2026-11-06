@@ -35,3 +35,6 @@ for v in my_result.values():
 print("sum of marks = ", sum_of_items)
 
 print(sum(list(my_result.values())))
+#OUTPUT 
+sum of marks =  441
+441
