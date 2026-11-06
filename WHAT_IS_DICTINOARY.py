@@ -26,3 +26,12 @@ print(combine_list)
 # OUTPUT 
 {'ten': 10, 'twenty': 20, 'thirty': 30}
 
+
+# Q3: Write a Python program to sum all the items in a dictionary 
+my_result = { "math":78, "science": 90, "sst":80, "english":98, "hindi": 95}
+sum_of_items = 0 
+for v in my_result.values():
+    sum_of_items += v 
+print("sum of marks = ", sum_of_items)
+
+print(sum(list(my_result.values())))
