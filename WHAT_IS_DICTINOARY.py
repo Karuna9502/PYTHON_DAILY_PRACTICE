@@ -51,3 +51,25 @@ print(frq)
 #OUTPUT 
 enter a string =  karuna
 {'k': 1, 'a': 2, 'r': 1, 'u': 1, 'n': 1}
+
+# Q5 STORE "NAME" OF A STUDENT LIST OF 5 MARKS OF THAT STUDENT AS A VALUE. STORE AT LEAST 5 STUDENT NAMES. PRINT THE SUM AND PERCENTAGES OF ALL THE STUDENTS. 
+st_data = {
+    "student1" : [67,89,65,76,45],
+    "student2": [76,89,90,98,77],
+    "student3": [98,76,98,76,89],
+    "student4": [98,76,54,23,63],
+    "student5":[78,90,87,55,78]
+}
+for k,v in st_data.items():
+    total = 0 
+    for marks in v:
+        total += marks
+        percentage = total / 500 * 100
+    print(f"{k} has scored {total} marks, percentage = {percentage:.2f}")
+#OUTPUT 
+student1 has scored 342 marks, percentage = 68.40
+student2 has scored 430 marks, percentage = 86.00
+student3 has scored 437 marks, percentage = 87.40
+student4 has scored 314 marks, percentage = 62.80
+student5 has scored 388 marks, percentage = 77.60
+
