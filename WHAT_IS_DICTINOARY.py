@@ -38,3 +38,16 @@ print(sum(list(my_result.values())))
 #OUTPUT 
 sum of marks =  441
 441
+
+# Q4: ASK FOR A STRING FROM THE USER. DISPLAY THE DICTIONARY WHERE EACH KEY IS A CHARACTER AND THE VALUE IS THE FREQUENCY OF THAT CHARACTER IN THAT STRING
+my_string = input("enter a string = ")
+frq = {}
+for ch in my_string:
+    if ch in frq:
+        frq[ch] += 1 
+    else:
+        frq[ch] = 1
+print(frq)
+#OUTPUT 
+enter a string =  karuna
+{'k': 1, 'a': 2, 'r': 1, 'u': 1, 'n': 1}
