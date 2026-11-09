@@ -73,3 +73,20 @@ student3 has scored 437 marks, percentage = 87.40
 student4 has scored 314 marks, percentage = 62.80
 student5 has scored 388 marks, percentage = 77.60
 
+# Q6 STORE MARKS OF 5 DIFFERENT SUBJECTS IN A DICTIONARY. ASK FOR THE SUBJECT NAME AS INPUT FROM THE USER. PRINT THE MARKS OF THE SUBJECT ENTERED BY THE USER. IF THE SUBJECT DOES NOT EXIST, PRINT "INVALID"  
+subject_marks = {
+    "maths":90, 
+    "science": 89, 
+    "sst": 78, 
+    "english": 54, 
+    "hindi": 90
+}
+subject_name = input("enter the subject name = ")  
+if subject_name in subject_marks:
+    print(subject_marks[subject_name])
+else:
+    print("invalid")
+#OUTPUT
+enter the subject name =  maths
+90
+
